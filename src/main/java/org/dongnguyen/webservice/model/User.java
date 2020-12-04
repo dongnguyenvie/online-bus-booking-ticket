@@ -1,9 +1,19 @@
 package org.dongnguyen.webservice.model;
 
 import javax.persistence.*;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.experimental.Accessors;
+
 import java.util.Collection;
 import java.util.Set;
 
+@Getter
+@Setter
+@Accessors(chain = true)
+@NoArgsConstructor
 @Entity(name = "user")
 public class User {
 

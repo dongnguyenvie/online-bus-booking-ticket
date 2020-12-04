@@ -1,7 +1,14 @@
 package org.dongnguyen.webservice.model;
 
+import java.util.Set;
+
 import javax.persistence.*;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity(name = "trip")
 public class Trip {
 	@Id

@@ -1,9 +1,15 @@
 package org.dongnguyen.webservice.model;
 
 import java.util.Collection;
+import java.util.Set;
 
 import javax.persistence.*;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity(name = "trip_schedule")
 public class TripSchedule {
 	@Id
